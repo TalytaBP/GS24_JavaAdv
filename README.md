@@ -16,7 +16,7 @@ https://youtu.be/K3eb_SViHF0
 
 ### Métodos POST
 
-localhost:8080/usuario
+- [X] localhost:8080/usuario
 
 ```
 
@@ -29,31 +29,31 @@ localhost:8080/usuario
 ```
 
 ### Método PUT
-localhost:8080/aparelho
-localhost:8080/historico_login
-localhost:8080/dicas
-localhost:8080/resultado
-localhost:8080/tipo_aparelho
-localhost:8080/tipo_gasto
-localhost:8080/usuario
-localhost:8080/usuario_login
+- [X] localhost:8080/aparelho
+- [X] localhost:8080/historico_login
+- [X] localhost:8080/dicas
+- [X] localhost:8080/resultado
+- [X] localhost:8080/tipo_aparelho
+- [X] localhost:8080/tipo_gasto
+- [X] localhost:8080/usuario
+- [X] localhost:8080/usuario_login
 
 ### Método GET
-localhost:8080/aparelho
-localhost:8080/historico_login
-localhost:8080/dicas
-localhost:8080/resultado
-localhost:8080/tipo_aparelho
-localhost:8080/tipo_gasto
-localhost:8080/usuario
-localhost:8080/usuario_login
+- [X] localhost:8080/aparelho
+- [X] localhost:8080/historico_login
+- [X] localhost:8080/dicas
+- [X] localhost:8080/resultado
+- [X] localhost:8080/tipo_aparelho
+- [X] localhost:8080/tipo_gasto
+- [X] localhost:8080/usuario
+- [X] localhost:8080/usuario_login
 
 ### Método Delete
-localhost:8080/aparelho
-localhost:8080/historico_login
-localhost:8080/dicas
-localhost:8080/resultado
-localhost:8080/tipo_aparelho
-localhost:8080/tipo_gasto
-localhost:8080/usuario
-localhost:8080/usuario_login
+- [X] localhost:8080/aparelho
+- [X] localhost:8080/historico_login
+- [X] localhost:8080/dicas
+- [X] localhost:8080/resultado
+- [X] localhost:8080/tipo_aparelho
+- [X] localhost:8080/tipo_gasto
+- [X] localhost:8080/usuario
+- [X] localhost:8080/usuario_login
