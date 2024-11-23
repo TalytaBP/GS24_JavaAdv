@@ -26,6 +26,17 @@ https://youtu.be/K3eb_SViHF0
 
 ```
 
+- [X] localhost:8080/historico_login
+
+```
+
+{
+  "dt_inicio_login": 12/03/2024,
+  "dt_final_login": 13/04/2024
+}
+
+```
+      
 - [X] localhost:8080/usuario
 
 ```
