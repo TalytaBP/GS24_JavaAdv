@@ -18,7 +18,7 @@ https://youtu.be/K3eb_SViHF0
 
 - [X] localhost:8080/aparelho
       
-    ```
+```
 
 {
   "tempo_uso": 6
