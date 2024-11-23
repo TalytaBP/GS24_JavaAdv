@@ -17,6 +17,7 @@ https://youtu.be/K3eb_SViHF0
 ### Métodos POST
 
 - [X] localhost:8080/aparelho
+      
     ```
 
 {
