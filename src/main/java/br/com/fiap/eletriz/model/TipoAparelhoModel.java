@@ -1,11 +1,17 @@
 package br.com.fiap.eletriz.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.hateoas.RepresentationModel;
 
 import java.io.Serializable;
 import java.util.UUID;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table (name ="GS_TIPO_APARELHO")
 public class TipoAparelhoModel extends RepresentationModel<TipoAparelhoModel> implements Serializable {

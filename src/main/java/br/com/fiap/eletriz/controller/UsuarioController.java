@@ -6,6 +6,7 @@ import br.com.fiap.eletriz.repository.UsuarioRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.EntityModel;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -27,6 +28,7 @@ public class UsuarioController {
         @PostMapping("/usuario")
         public ResponseEntity<UsuarioModel> saveUsuario(@RequestBody @Valid UsuarioDto usuarioDto) {
             var usuarioModel = new UsuarioModel();
+            System.out.println(usuarioModel);
             BeanUtils.copyProperties(usuarioDto, usuarioModel);
             return ResponseEntity.status(HttpStatus.CREATED).body(usuarioRepository.save(usuarioModel));
         }

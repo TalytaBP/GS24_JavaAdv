@@ -1,12 +1,18 @@
 package br.com.fiap.eletriz.model;
 
 import jakarta.persistence.*;
+import jdk.jfr.DataAmount;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.hateoas.RepresentationModel;
 
 import java.io.Serializable;
 import java.util.UUID;
 
-
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "GS_USUARIO")
 public class UsuarioModel extends RepresentationModel<UsuarioModel> implements Serializable {
@@ -20,7 +26,7 @@ public class UsuarioModel extends RepresentationModel<UsuarioModel> implements S
     @Column
     private String nm_usuario;
 
-    @Column(columnDefinition = "NUMBER(11,0)")
+    @Column(name = "nr_cpf", nullable = false, length = 14, unique = true)
     private Long nr_cpf;
 
     @Column
